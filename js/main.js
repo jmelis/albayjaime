@@ -3,7 +3,7 @@ function link_handler(id) {
 
     switch(id)
     {
-    case "cuanddonde":
+    case "cuandodonde":
         section_label = "Cu&aacute;ndo y D&oacute;nde";
         break;
     case "alojamiento":

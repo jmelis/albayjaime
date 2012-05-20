@@ -77,7 +77,7 @@ a:hover, a:focus { color:#999; }
 
 div#page { width:946px; margin:20px auto; padding:0px 17px 10px 17px; }
 div#branding { margin:20px 0 18px 0; padding:30px 0 18px 0; text-align: center; color: #ba1820; font-weight: bold; font-size: 2em; }
-div#content_wrapper { overflow:auto; clear:both; margin:30px 3px 15px 0; padding:30px 0 30px 0; border:1px solid #DDD; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; background:url(../images/site/content.png); }
+div.content_wrapper { overflow:auto; clear:both; margin:30px 3px 15px 0; padding:30px 0 30px 0; border:1px solid #DDD; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; background:url(../images/site/content.png); }
 div#content_pri { float:right; width:516px; margin:0; padding:5px 110px 0 87px;  border-left:1px dashed #DDD; }
 div#content_sec { float:left; width:196px; margin:0; padding:0 25px 0 0; }
 
@@ -296,7 +296,7 @@ h1 { margin:0; }
 }
 
 
-div#content_wrapper {
+div.content_wrapper {
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -307,4 +307,18 @@ hr {
     border: 0;
     height: 20px;
     background: url(../images/site/underline.png) repeat-x center bottom;
+}
+
+div.content_wrapper {
+    display: none;
+}
+
+#sectiontitle {
+    color: #ba1820;
+    text-align: center;
+    display: none;
+}
+
+#foto {
+    display: block;
 }
